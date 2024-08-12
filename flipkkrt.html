@@ -1,198 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="netflix.css">
 </head>
-<style>
-    .container{
 
-        display: flex;
-        justify-content: space-between;
-    }
-    .v{
-        width: 27rem;
-        border: none;
-        background-color: rgb(231, 231, 240);
-        margin: 0px;
-        padding: 12px;
-        border-radius: 6px;
-        
-    }
-    #u{
-        border: none; 
-        margin: 0px;
-        padding: 0px;
-        
-    }
-    .h{
-        display: flex;
-      
-    }
-    .s{
-        margin: 2px;
-        
-    }
-    body{
-        background-color: rgb(197, 211, 207);
-    }
-    header{
-        background-color: hsl(0, 0%, 100%);
-        padding: 10px 30px 2px 40px;
-    }
-    #b{
-     
-        margin: 5px;
-        
-    }
-    .one{
-        display: flex;
-        justify-content: space-between;
-        margin: 10px 0px;
-        background-color: hsl(0, 0%, 100%);
-        padding: 10px 30px 2px 40px;
-    }
-    .by{
-        margin: 15px 0px;
-        width: 100%;
-        height: 100%;
-        
-        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-        animation: change 5s  ease-in-out infinite forwards ;
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        position: relative;
-text-align: center;
-justify-content: center;
-    }
-    @keyframes change {
-from
-{
-    background-image: url(https://image.slidesharecdn.com/flipkartbpresentation-160715101338/75/FLIPKART-Online-Shopping-In-India-1-2048.jpg);
-    height: 10rem;
-    width: 100vw;
-}
-to
-{
-    
-    background-image: url(	https://www.thestatesman.com/wp-content/uploads/2019/11/flipkart-generic-poster_ED.jpg);
-    height: 10rem;
-    width: -100vw;
-}
-      
-    }
-.three{
-    background-color: hsl(0, 0%, 100%);
-
-}
-.l{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.g{
-    height: 190px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgb(214, 207, 207);
-    margin: 1px;
-    padding: 15px;
-}
-#j{
-    height: 240px;
-}
-</style>
 <body>
-    <header>
-        <div class="container">
-          <div><img height="40rem" src="flip.svg" alt=""></div>  
-         <div class="h">
-            <span class="s" id="b" ><img height="30rem" src="search.jpg" alt=""></span>
-            <span class="s"><input class="v" type="text"  placeholder="Search For Products, Brands And More"></span>
-            </div>  
-        <div class="h">  <span class="s"><img src="profile.svg" l alt=""> </span>
-        <span class="s"><select name="login" id="u">
-            <option value="login">login</option>
-            <option value="profile">My profile</option>
-            <option value="my orders">My orders</option>
-        </select></span></div>
-        <div class="h"> <span class="s"><img src="crt.svg" alt=""></span>
-        <span class="s">cart</span></div>
-    <div class="h">
-        <span class="s"><img src="store.svg" alt=""></span>
-    <span class="s">Become A seller</span>
-    </div>
+    <div class="main">
+        <nav>
+            <span><img src="logo.svg " alt=""></span>
+            <div class="desire">
+                <button class="btn t">English</button>
+                <button class="btn red-sn">Sign In</button>
+            </div>
+
+        </nav>
+        <div class="box">
+
 
         </div>
-    </header>
-    <main>
-        <section class="one">
-<div><div><img src="surf.webp" alt=""></div>
-<div><p id="u">Grocery</p></div></div>
-<div><div><img src="sof.webp" alt=""></div>
-<div><select name="furniture" id="u">
-    <option value="Home & furniture">Home & furniture</option>
-</select></div></div>
-<div><div><img src="mobo.webp" alt=""></div>
-<div><p id="u">Mobiles</p></div></div>
-<div><div><img src="electronics.webp" alt=""></div>
-<div><select name="electronic" id="u">
-    <option value="electronics">Electronics</option>
-</select></div></div>
-<div><div><img src="ornge.webp" alt=""></div>
-<div><p id="u">Fashions</p></div></div>
-<div><div><img src="surf.webp" alt=""></div>
-<div><p id="u">Grocery</p></div></div>
-<div><div><img src="sof.webp" alt=""></div>
-<div><select name="furniture" id="u">
-    <option value="Home & furniture">Home & furniture</option>
-</select></div></div>
-<div><div><img src="mobo.webp" alt=""></div>
-<div><p id="u">Mobiles</p></div></div>
+        <div class="hero">
+            <span> Unlimited movies, TV shows and more</span>
+            <span>Watch anywhere. Cancel anytime.</span>
 
-        </section>
-        <section class="two">
-            <div></div>
-        </section>
-        <section class="two">
-            <div class="by">
-                <div></div>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="flex2">
+                <input class="btnu " type="text" placeholder="Email address">
+                <button class="btn red">Gets sarted &gt; </button>
             </div>
-        </section>
-        <section class="three">
-            <div><h3>Basics of electronics</h3></div>
-<div class="l">
-    <div class="g">            <div><img height="150" src="buds.jpeg" alt="">
-    <div>Grab Now</div>
+        </div>
+        <div class="separation"></div>
+        
     </div>
-
-</div>
-            <div class="g">
-                <div >
-                    <img height="150" src="mob.jpeg" alt=""></div>
-                <div>Starts from</div>
-                <div>7999</div>
+    <section class="first">
+        <div class="u"><span>Enjoy on your TV</span>
+         <span>   Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span></div>
+            <div class="secimg">
+<img src="tv1.png" alt="">
+<video src="neflixvdo.m4v" autoplay controls loop muted></video>
             </div>
-            <div class="g"><div >
-                <img height="150" src="buds1.jpeg" alt=""></div>
-                <div>Starts from</div>
-                <div>7999</div>
-            </div>
-            <div class="g"><div ><img height="150" src="wtch.jpeg" alt=""></div>
-            <div>Starts from</div>
-                <div>7999</div></div>   
-            <div class="g"><div ><img height="150" src="mob1.jpeg" alt=""></div>
-            <div>Starts from</div>
-                <div>7999</div></div> 
-            <div class="g " id="j"><div><img height="200" src="s.webp" alt=""></div>
-            <div>Starts from</div>
-                <div>7999</div></div> 
-</div>
+ 
+    </section>
+    <div class="separation"></div>
+    <section class="first second">
+        <img src="girl.jpg" alt="">
+        <div class="u"><span>Download your shows to watch offline</span>
+         <span>Save your favourites easily and always have something to watch.</span></div>
+            <div class="secimg">
 
+
+            </div>
+ 
+    </section>
+    <div class="separation"></div>
+    <section class="first third">
+        <div class="u"><span>Watch everywhere</span>
+         <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span></div>
+            <div class="secimg">
+<img src="tv.png" alt="">
+<video src="saif.m4v" autoplay controls loop muted></video>
+            </div>
+ 
+    </section>
+    <div class="separation"></div>
+    <section class="first four">
+        <img src="children.png" alt="">
+        <div class="u"><span>Create profiles for kids</span>
+         <span> Send children on adventures with their favourite characters in a space made just for them—free with your membership.</span></div>
+            <div class="secimg">
+
+
+            </div>
+ 
         </section>
-    </main>
+    <section  class="faq">
+        <h2>frequently asked questions</h2>
+        <div class="faqbox">
+            <span>what is netflix</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+        <div class="faqbox">
+            <span>what is netflix</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+        <div class="faqbox">
+            <span>what is netflix</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </section>
+    <div class="separation"></div>
+    <footer>
+        <span>Questions? Call 000-800-919-1694</span>
+        <div class="footer">
+        <div class="footer-items">       
+              <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            
+        </div>
+        
+   
+   
+        <div class="footer-items">
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            
+        </div>
+        <div class="footer-items">
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            
+        </div>
+        <div class="footer-items">
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            <a href="faq">faq</a>
+            
+        </div>
+    </div>
+    </footer>
 </body>
+
 </html>
